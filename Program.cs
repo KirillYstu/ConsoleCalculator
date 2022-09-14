@@ -15,25 +15,25 @@ b = Convert.ToDouble(Console.ReadLine());
 if (oper == '+')
 {
     total = a + b;
-    Console.WriteLine("Cумма " + a + " и " + b + " равна " + total + ".");
+    Console.WriteLine(a + " + " + b + " = " + total);
 }
 
 else if (oper == '-')
 {
     total = a - b;
-    Console.WriteLine("Разность " + a + " и " + b + " равна " + total + ".");
+    Console.WriteLine(a + " - " + b + " = " + total);
 }
 
 else if (oper == '*')
 {
     total = a * b;
-    Console.WriteLine("Умножение " + a + " на " + b + " равно " + total + ".");
+    Console.WriteLine(a + " * " + b + " = " + total);
 }
 
 else if (oper == '/')
 {
     total = a / b;
-    Console.WriteLine("Деление " + a + " на " + b + " равно " + total + ".");
+    Console.WriteLine(a + " / " + b + " = " + total);
 }
 else
 {
